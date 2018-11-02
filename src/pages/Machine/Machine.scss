@@ -1,0 +1,45 @@
+.slot-machine {
+  margin: 0 auto;
+
+  .screen {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .controls {
+    text-align: center;
+    margin-top: 20px;
+
+    button {
+      padding: 20px 40px 20px 40px;
+      background: #ccc;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  img {
+    width: 128px;
+    height: auto;
+    display: block;
+  }
+
+  .slot {
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .status, .init-error {
+    text-align: center;
+  }
+
+  .init-error {
+    color: red;
+    margin-top: 20px;
+  }
+
+}
+
